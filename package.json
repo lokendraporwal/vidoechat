@@ -1,0 +1,20 @@
+{
+    "name": "onetoone-webrtc",
+    "version": "1.0.0",
+    "description": "Video chat between 2 people using simple peer",
+    "main": "manin.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+    },
+    "author": "Lokendra Porwal",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.3",
+        "simple-peer": "^9.7.0",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "watchify": "^3.11.1"
+    }
+}
